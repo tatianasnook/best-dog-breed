@@ -4,8 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Best dog breed for you</h1>
+  <select onchange="showBreedImage(value)" name="breed_selector" id="breed_selector">
+</select>
+
+<div>
+<a id="wiki_link" target="_blank"></a>
+<div id="breed_json"></div>
+</div>
+
+<div>
+<img id="breed_image"></img>
+</div>
+
+  <script src="script.js"></script>
 </body>
 </html>
